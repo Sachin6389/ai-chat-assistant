@@ -18,7 +18,7 @@ function History() {
       setLoading(true);
 
       const res = await axios.get(`${API_URL}/history`);
-      console.log("Fetched history:", res);
+      
 
       // Supports both:
       // res.data = [...]

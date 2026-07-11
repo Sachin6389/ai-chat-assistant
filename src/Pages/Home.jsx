@@ -19,7 +19,7 @@ function Home() {
       const res = await axios.post(`${API_URL}/chat`, {
         message: message,
       });
-      console.log("Response from server:", res);
+      
 
       const data = await res.data
 ;
